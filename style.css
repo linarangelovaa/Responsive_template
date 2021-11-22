@@ -1,0 +1,381 @@
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: sans-serif;
+}
+#navigacion{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+#first1{
+    width: 50%;
+    margin-left: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+    color: white;
+}
+#first2{
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+}
+.aa{
+    padding: 1% 3%;
+    text-decoration: none;
+    color: white;
+}
+#backgroundpictures{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url(hero.jpg);
+    height: auto;
+    width: 100%;
+    opacity: 0.5;
+}
+#backgroundpictures h1{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+#backgroundpictures h3{
+    text-align: center;
+    color: white;
+}
+#button{
+    background-color: #2791e5;
+    height: 5vh;
+    width: 12%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 30%;
+    margin-left: 45%;
+}
+#button:hover{
+    background:white;
+    color:  #2791e5 ;
+    border: 2px solid #2791e5;
+}
+#fourpictures{
+    height: 80vh;
+    width: 90%;
+    margin-left: 5%;
+}
+.ourwork{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+.ourwork h2{
+    margin-top: 3%;
+}
+.line{
+    width: 10%;
+    border: 1px solid #2791e5;
+}
+.firstpictures{
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+.pictures40{
+    height: 100%;
+    width: 40%;
+}  
+.pictures60{
+    height: 100%;
+    width: 60%;
+}  
+.heightandweight{
+    height: 90%;
+    width: 90%;
+}
+.bigrectangle{
+    width: 95%;
+    height: 90%;
+}
+#page3{
+    height: auto;
+    width: 100%;
+    background:#f7f7f7 ;
+}
+#treediv{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin-top: 0px;
+}
+#firstdiv{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+#subscribe{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+#subscribe{
+    height: auto;
+}
+
+.photoandtext{
+    text-align: center;
+    height: 100%;
+    width: 33.3%;
+}
+.blue {
+    color: rgba(32, 100, 245, 0.8);
+    font-size: 50px;
+  }
+.photoandtext p{
+    font-size: 70%;
+}
+#email{
+    height: 11%;
+}
+#button2{
+    background-color: #2791e5 ;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    height: 15%;
+    margin-left: 1%;
+    margin-bottom: 5vh;
+}
+#button2:hover{
+    background:white;
+    color:  #2791e5 ;
+    border: 2px solid #2791e5;
+}
+#icons{
+    height: 20vh;
+    width: 100%;
+    background-color: #414a4f;
+    text-align: center;
+    color: white;
+    padding-top: 2%; 
+}
+#icons p{
+   margin-top: 1%;
+}
+
+@media (max-width: 768px){
+    #backgroundpictures{
+        height: auto;
+    }
+    #backgroundpictures h1 h3 button{
+        text-align: center;
+    }
+    #backgroundpictures h1{
+    margin: 1%;
+    }
+    #button{
+        margin-bottom: 10%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    #first1{
+        width: 30%;
+        margin-left: 5%;
+    }
+    #first2{
+        width: 70%;}
+
+        #fourpictures{
+            height: auto;
+            width: 90%;
+            margin-left: 5%;
+        }
+        .ourwork{
+            height: auto;
+            width: 100%;
+            text-align: center;
+        }
+        .ourwork h2{
+            margin-top: 15%;
+        }
+        .ourwork p{
+            font-size: 120%;
+        }
+        .line{
+            width: 30%;
+            margin-top: 5%;
+        }
+        .firstpictures{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .pictures40{
+            width: 100%;
+            height: 20vh;
+            margin: 3% 0px;
+        }  
+        .pictures60{
+            width: 100%;
+            height: 20vh;
+            margin: 3% 0px;
+        }  
+        .heightandweight{
+            width: 100%;
+            height: 100%;
+        }
+        .bigrectangle{
+            width: 100%;
+            height: 100%;
+        }
+        #treediv{
+            width: 100%;
+            flex-direction: column;}
+         #firstdiv{
+                height: auto;
+                width: 100%;
+        } 
+        #firstdiv p{
+            margin: 0px 15%;
+            font-size: 120%;
+        } 
+        .photoandtext{
+            width: 100%;
+        }
+        .photoandtext p{
+            margin: 0px 15%;
+            font-size: 120%;
+        }
+        .photoandtext h3{
+            font-size: 140%;
+        }
+        #subscribe h3{
+            margin: 0px 15%;
+            font-size: 140%;
+        }
+        #subscribe p{
+            margin: 0px 15%;
+            font-size: 120%;
+        }
+        #email{
+            width: 76%;
+            height: 5vh;
+        }
+        #subscribe button{
+            margin-top: 3%;
+        }
+        #button2{
+         height: 5vh;
+        }
+        #icons {
+            height: 12vh;
+        }
+        #icons p{
+            font-size: 70%;
+            margin: 5% 7%;
+         }
+
+}
+
+@media (max-width: 425px){
+
+    #navigacion{
+        display: block;
+    }
+    #first1{
+        padding-top: 7%;
+        text-align: center;
+        width: 100%;
+    }
+    #first2{
+        width: 100%;
+        text-align: center;
+        font-size: 96%;
+    }
+    #button{
+        width: 40%;
+        height: 3vh;
+        font-size: 105%;
+    }
+    #backgroundpictures{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+         url(hero.jpg);
+         opacity: 0.7;
+        }
+
+    #backgroundpictures h1{
+        font-size: 260%; 
+    }
+    .ourwork h2{
+        font-size: 290%;
+    }
+    .ourwork p{
+        margin: 3% 20%;
+        font-size: 120%;
+    }
+    .firstpictures{
+        height: auto;
+    }
+    #fourpictures{
+        height: auto;
+        margin-right: 0px;
+    }
+    .pictures40{
+        width: 100%;
+        height: 35vh;
+    }  
+    .pictures60{
+        height: 35vh;
+        width: 100%;
+    }  
+    .bigrectangle{
+        width: 100%;
+        height: 35vh;
+    }
+    .heightandweight{
+        width: 100%;
+    }
+    .photoandtext p{
+        margin: 3% 30%; 
+        font-size: 120%;
+    }
+    #firstdiv h2{
+       font-size: 250%;
+    }
+    #firstdiv p{
+        font-size: 120%;
+    } 
+    #subscribe h3{
+        font-size: 280%;
+    }
+    #subscribe p{
+        font-size: 120%;
+    }
+    #page3{
+        height: auto;
+    }
+   
+    #email{
+        height: 4vh;
+        width: 70%;
+    }
+    #button2{
+        margin: 4vh 0px;
+        height: 5vh;
+        width: 17vh;
+        font-size: 150%;
+    }
+    #icons{
+        height: auto;
+    }
+    #icons p{
+        margin: 3% 10%; 
+        font-size: 150%; 
+    }
+
+}
